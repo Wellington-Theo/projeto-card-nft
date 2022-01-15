@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+}
+body{
+    padding: 10px 0 0 0 ;
+    background-color: #14253d;
+    font-family: 'Outfit', sans-serif;
+
+}
+.header{
+    text-align: center;
+    color: white;
+    margin: 10px 0 ;
+}
+.card{
+    background-color: #14253d;
+    width: 350px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 30px 25px;
+    border-radius: 20px;
+    box-shadow: 0px -2px 20px 18px rgba(0, 0, 0, 0.514)
+}
+
+.image{
+    background-image: url(./images/image-equilibrium.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-size:100% auto;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+.image:hover{
+    -webkit-transform: scale(1.1deg);
+   transform: scale(1.1);
+   border-radius: 10px;
+}
+.icon-view{
+    background-image: url(./images/icon-view.svg);
+    position: relative;
+    left: 43%;
+    top: 120px;
+    opacity: 0;
+    transition: opacity .2s linear;
+}
+.image:hover .icon-view{
+    opacity: 1;
+    
+}
+.icon-transiction{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.image:hover .icon-transiction{
+    background-color: rgba(0, 0, 0, 0.253);
+    border-radius: 10px;
+}
+.titulo-card{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.text{
+    display: block;
+    font-size: 19px;
+    color: #8bacda ;
+    display: block;
+    margin-top: 15px;
+}
+.price-container{
+    display:flex;
+    margin: 30px 0;
+}
+.price{
+    font-weight: 600;
+    color: #00fff7;
+    margin: 0 105px 0 5px;
+}
+.time{
+    font-weight: 600;
+    color: #8bacda;
+    margin: 0 0 0 14px;
+}
+.line{
+    height: 1px;
+    background-color: #8aabd83b;
+}
+.profile{
+    display: flex;
+   
+}
+.avatar{
+    width:32px;
+    border: 1px solid rgba(255, 255, 255, 0.541);
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.329);
+    margin-top: 10px;
+}
+.profile h2{
+    display: block;
+    font-size: 14px;
+    margin-left: 1em;
+    margin-top: 20px;
+    color: #8bacda;
+}
+.profile a{
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+}
